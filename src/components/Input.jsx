@@ -37,11 +37,11 @@ function PromptInput({ onSearch, loading }) {
           placeholder={placeholder}
           disabled={loading}
           className="w-full px-6 py-4 text-lg rounded-full 
-                   bg-[#2A2A2A] text-white placeholder-gray-500
-                   border-2 border-transparent
-                   focus:border-[#1DB954] focus:outline-none
-                   disabled:opacity-50 disabled:cursor-not-allowed
-                   transition-all"
+         bg-[#2A2A2A] text-white placeholder-gray-500
+         border-2 border-transparent
+         focus:border-[#1DB954] focus:outline-none
+         disabled:opacity-50 disabled:cursor-not-allowed
+         transition-all pr-28"
         />
         <button
           type="submit"
